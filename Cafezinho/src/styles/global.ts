@@ -8,9 +8,10 @@ export const GlobalStyle = createGlobalStyle`
   }
   body{
     background-color: ${(props) => props.theme.background};
+    max-width: 1280px;
+    margin: 0 auto;
   }
   body,input,textarea,button{
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
   }
 `

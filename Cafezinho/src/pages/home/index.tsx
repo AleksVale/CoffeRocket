@@ -1,4 +1,5 @@
 import {
+  Coffes,
   Container,
   IconCart,
   IconClock,
@@ -10,6 +11,7 @@ import {
 } from './style'
 import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react'
 import BigCoffe from '../../assets/Imagem.png'
+import { Cafe } from '../../Components/Cafe'
 
 export function Home() {
   return (
@@ -57,7 +59,15 @@ export function Home() {
           <img src={BigCoffe} alt="" />
         </div>
       </Container>
-      <Second></Second>
+      <Second>
+        <h1>Nossos cafés</h1>
+        <Coffes>
+          <Cafe />
+          <Cafe />
+          <Cafe />
+          <Cafe />
+        </Coffes>
+      </Second>
     </>
   )
 }

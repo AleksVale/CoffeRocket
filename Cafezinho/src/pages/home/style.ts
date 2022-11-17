@@ -65,3 +65,9 @@ export const IconClock = styled(Icon)`
 export const Second = styled.div`
   padding-top: 20rem;
 `
+
+export const Coffes = styled.div`
+  padding: 5rem 0;
+  display: flex;
+  gap: 0.4rem;
+`

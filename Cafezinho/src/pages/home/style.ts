@@ -63,11 +63,12 @@ export const IconClock = styled(Icon)`
 // PRIMEIRA SESSÃO
 
 export const Second = styled.div`
-  padding-top: 20rem;
+  padding-top: 10rem;
 `
 
 export const Coffes = styled.div`
   padding: 5rem 0;
-  display: flex;
-  gap: 0.4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 `
